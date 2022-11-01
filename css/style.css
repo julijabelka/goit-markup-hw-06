@@ -274,7 +274,6 @@ ul {
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms var(--timing-function);
-
   cursor: pointer;
 }
 .hero-btn:hover,
@@ -884,6 +883,7 @@ ul {
   border-radius: 4px;
   resize: none;
   padding: 12px 16px;
+  margin-bottom: 20px;
 }
 .modal-user {
   font-style: normal;
@@ -893,14 +893,72 @@ ul {
   letter-spacing: 0.01em;
   color: #757575;
 }
-.modal-submit {
+.check-text {
+  font-family: "Roboto";
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.check-text::before {
+  content: "";
+  width: 16px;
+  height: 15px;
+  border: 2px solid#212121;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+.input-check:checked + .check-text::before {
+  background-color: var(--accent-color);
+  background-image: url(../images1/check.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: transparent;
+}
+.input-check:focus + .check-text::before {
+  background-color: var(--accent-color);
+  background-image: url(../images1/check.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: transparent;
+}
+
+.check-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: var(--accent-color);
+  margin-left: 4px;
+}
+.modal-submit {
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 10px 32px;
+  text-align: center;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--background-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms var(--timing-function);
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.modal-submit:hover,
+.modal-submit:focus {
+  background-color: var(--button-backgroud-color);
 }
 
 /*.modal-close-icon {
