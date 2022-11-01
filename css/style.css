@@ -867,7 +867,7 @@ ul {
 .modal-icon {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 12px;
 }
 .modal-coments {
   width: 100%;
