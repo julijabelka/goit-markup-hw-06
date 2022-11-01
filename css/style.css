@@ -862,8 +862,11 @@ ul {
   padding-left: 42px;
   outline-color: transparent;
 }
-.modal-input:focus{
-  border-color: var(--accent-color);
+.modal-input:focus {
+  border: 1px solid var(--accent-color);
+}
+.modal-input:focus + .modal-icon {
+  fill: var(--accent-color);
 }
 .input-wrap {
   position: relative;
@@ -871,7 +874,7 @@ ul {
 .modal-icon {
   position: absolute;
   top: 50%;
-  left: 5;
+  left: 12px;
   transform: translateY(-50%);
 }
 .modal-coments {
