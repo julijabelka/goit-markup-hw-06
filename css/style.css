@@ -804,6 +804,9 @@ ul {
 .sign-conteiner {
   margin-left: 70px;
 }
+.form-footer-sign {
+  display: flex;
+}
 .mail-label-footer {
   position: relative;
 }
@@ -827,9 +830,9 @@ ul {
 }
 .signature {
   position: relative;
-  }
+}
 .button-sign {
-  gap: 10px;
+  margin-left: 10px;
   height: 50px;
   width: 200px;
   border-radius: 4px;
@@ -850,10 +853,11 @@ ul {
 }
 .sign-icon-footer {
   position: absolute;
-  top: 50%;
-  right: 8px;
+  top: 10%;
+  right: 50%;
   transform: translateY(50%);
 }
+
 /*------overlay-----*/
 .backdrop {
   position: fixed;
