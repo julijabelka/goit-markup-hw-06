@@ -818,8 +818,10 @@ ul {
   color: var(--background-color);
   margin-bottom: 20px;
 }
-.button-sign {
+.signature {
   position: relative;
+}
+.button-sign {
   height: 50px;
   width: 200px;
   padding: 10px 28px;
