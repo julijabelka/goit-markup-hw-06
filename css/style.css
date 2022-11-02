@@ -800,6 +800,19 @@ ul {
 }
 .joing-icon {
 }
+/*-------sign-------*/
+.sign-conteiner {
+  margin-left: 70px;
+}
+.sign-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--background-color);
+  margin-bottom: 20px;
+}
 /*------overlay-----*/
 .backdrop {
   position: fixed;
@@ -867,7 +880,7 @@ ul {
   outline-color: transparent;
 }
 .modal-input:focus,
-.modal-coments {
+.modal-coments:focus {
   border: 1px solid var(--accent-color);
 }
 .modal-input:focus + .modal-icon {
