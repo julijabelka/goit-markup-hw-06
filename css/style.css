@@ -804,6 +804,9 @@ ul {
 .sign-conteiner {
   margin-left: 70px;
 }
+.input-footer-mail {
+  height: 50px;
+}
 .sign-title {
   font-weight: 700;
   font-size: 14px;
@@ -815,6 +818,8 @@ ul {
 }
 .button-sign {
   position: relative;
+  height: 50px;
+  width: 200px;
   border-radius: 4px;
   border-color: transparent;
   padding: 10px 0px;
@@ -831,8 +836,9 @@ ul {
 }
 .sign-icon-footer {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 50%;
+  right: 8px;
+  transform: translateY(50%);
 }
 /*------overlay-----*/
 .backdrop {
