@@ -813,6 +813,13 @@ ul {
 .input-footer-mail {
   height: 50px;
   width: 358px;
+  padding-left: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .sign-title {
   font-weight: 700;
@@ -850,6 +857,10 @@ ul {
   cursor: pointer;
   display: flex;
   position: relative;
+}
+.button-sign:hover,
+.button-sign:focus {
+  background-color: var(--button-backgroud-color);
 }
 .sign-icon-footer {
   position: absolute;
