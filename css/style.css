@@ -820,6 +820,9 @@ ul {
 }
 .signature {
   position: relative;
+  height: 50px;
+  width: 200px;
+  padding: 10px 28px;
 }
 .button-sign {
   height: 50px;
