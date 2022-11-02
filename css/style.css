@@ -934,6 +934,7 @@ ul {
   margin-bottom: 28px;
   padding-left: 42px;
   outline-color: transparent;
+  transition: fill 250ms var(--timing-function) ;
 }
 .modal-input:focus,
 .modal-coments:focus {
@@ -986,6 +987,7 @@ ul {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
+   
 }
 .check-text::before {
   content: "";
