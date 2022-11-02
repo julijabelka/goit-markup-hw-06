@@ -865,7 +865,7 @@ ul {
 .sign-icon-footer {
   position: absolute;
   top: 10%;
-  right: 50%;
+  right: 8px;
   transform: translateY(50%);
 }
 
