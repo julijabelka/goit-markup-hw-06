@@ -806,12 +806,14 @@ ul {
 }
 .form-footer-sign {
   display: flex;
+  align-items: center;
 }
 .mail-label-footer {
   position: relative;
 }
 .input-footer-mail {
-  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 358px;
   padding-left: 16px;
   font-style: normal;
@@ -843,8 +845,7 @@ ul {
   top: 50%;
   left: 50%;
 }
-.signature {
-}
+
 .button-sign {
   margin-left: 10px;
 
